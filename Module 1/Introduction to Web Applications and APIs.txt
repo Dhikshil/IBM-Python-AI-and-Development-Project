@@ -1,0 +1,13 @@
+A web application is a program stored on a remote server that is delivered on the internet.
+A web app requires 3 components to process a client's request; a web server, an app server 
+and a database. We code the front-end using HTML, JS and CSS and the back-end in Java, Ruby
+and Python. Some advantages of using a web app instead of a locally hosted app is that;
+the version is the same for each user, the user can use whichever device they want
+and users do not need to install the application locally.
+
+An API iis a software that allows 2 applications that are not related to help create more
+flexibility for programmers and allow them to request data from other apps. APIs have standardised 
+rules and functions as to how they should behave about data within an app.
+
+REST(Representation State Transfer) or SOAP(Simple Object Access Protocol) are two API software
+architectures
