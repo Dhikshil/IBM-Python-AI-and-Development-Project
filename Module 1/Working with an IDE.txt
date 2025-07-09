@@ -1,0 +1,6 @@
+Cloud IDEs work by allowing you to use a fully fletched IDE without the need
+to install any applications and using it fully in your browser.
+
+IDEs include many tabs but two main ones are the editor tab which is where
+code is worked with and the termial where the output will be displayed and
+executed.
