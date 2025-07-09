@@ -1,0 +1,26 @@
+There are seven different stages of the application development lifecycle; requirement gathering,
+analysis, design, code and test, user and system testing, production and maintenance.
+
+In the requirement gathering phase, we will gather all the requirements across the application,
+these include; user requirements, business requirements and technical requirements.
+We must also capture any constraints of the design and viability of the business model.
+
+After gathering all the requirements are gathered, we must analyse a possible solution we could 
+incoorporate.During the analysis and design of the code there may be multiple renditions of the
+solutions and verifications to make a solution that meets all the requirements and constraints.
+The documentation here should be detailed, clear and concise.
+
+In the code and testing stage, we first code the application according to the document specificaiton
+and then tested and revised until the code meets all the requirements. The testing performed for the
+unit code is called unit testing, we conduct unit testing at the programming level.
+User testing tests and verifies the functionality from the user's point of view, there also needs
+to be several system level testing including perfomance and integration testing.
+
+After testing, the application can be sent to production where the end user can use the application.
+In the production phase, the application msut remain in a steady state, when this is not possible,
+changes must be tested thouroughly before being put into production.
+In maintenance when new features or upgrades are added, all the stages are went tthrough before this
+feature is completely added to the application.
+
+Functionality should be split accross multiple files to allow for cleaner code that is easier to
+maintain and this helps when new functionality is being added.
