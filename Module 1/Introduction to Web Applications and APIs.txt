@@ -10,4 +10,11 @@ flexibility for programmers and allow them to request data from other apps. APIs
 rules and functions as to how they should behave about data within an app.
 
 REST(Representation State Transfer) or SOAP(Simple Object Access Protocol) are two API software
-architectures
+architectures to develop APIs.
+
+APIs improve connectivity between apps and supports traditional create, read, update and 
+delte(or CRUD) actions. It is based on HTTP making it customisable and works with HTTP verbs.
+
+API is a generic term that describes apps that create links between any two parts of a system,
+web apps are a form of APIs that communicate between the front-end and the back-end. Web apps
+share data with other apps online, APIs include sharing of data both online and offline apps.
