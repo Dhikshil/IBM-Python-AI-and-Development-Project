@@ -1,0 +1,26 @@
+We need to ensure that the python code written is readable, concise and meets some 
+standards and conventions.
+
+We need to use indentation to make sure the code is properly nested and 
+someone can follow the code along to see how it works. Make sure to use
+spaces for indentation to make sure it is consistent alond different editors.
+
+Blank lines should be used to separate functions and other code to make it much more
+readable.
+
+Using spaces around operaters and commas helps readability and makes commands look
+spacious and discrete.
+
+Create separate fucntions for different functionality, these functions can then be 
+called in the main program or code. This also reduces the need to write multiple 
+lines of the same code and saves time for development, this increases the
+performance of the code aswell.
+
+Naming of the files, funcitons and variables should make sense and relate to their 
+funciton in the programm and application allowing any other person to traverse through 
+the code much easier.
+
+Static analysis is the method of comparing the written code against a standard to check
+compliance and evaluate the code without having to run it. Ususally found issues include,
+programming logical or syntax errors, standard violations and undefined variables.
+
