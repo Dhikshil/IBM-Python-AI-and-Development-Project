@@ -1,0 +1,9 @@
+Unit Testing is a method thar is used to validate if units of code are operating as designed. A unit
+is a smaller testable part of an application. 
+We first test the unit in our local system, we validate that the unit works well and make sure it is 
+not failing. Move the unit into a server environment and test it again and make sure it is still not 
+failing and works fine and fix any errors encountered. Once the code passes these stages, it will be
+moved to the final code base.
+
+There is a python module unittest which can be used to test functions and units of applications.
+
