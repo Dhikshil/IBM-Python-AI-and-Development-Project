@@ -1,0 +1,8 @@
+Python libraries are like toolkits with speicalised functionality for certain programming tasks; numPy
+is used for mathematical operations and Pandas is used for data manipulation and finally Matplotlib 
+simplifies data visualisation. This saves development time for developers.
+
+Frameworks are predefined structures for app development, they provide guidelines and facilitate good
+coding practices by making it easy to use them and organising code to enable reusing code of libraries
+for adding features. Using a framework eases the developing process with the pre-defined libraries and
+modules and debugging and testing tools. This allows them to add mroe functionality with less code.
