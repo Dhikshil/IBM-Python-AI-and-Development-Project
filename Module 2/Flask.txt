@@ -1,0 +1,16 @@
+Flask is a micro-framewok that can be used to create web applications. It is not opinionated nor bind
+the user to some specific set of tools.  Flask provides minimal dependencies to creating a web app
+but is extensible and provides many community-based extensions and features.
+
+Main features include; built in web server that runs apps in developer mode, debugging tools with traceback
+and standard Python logging, built in unit testing and enables access to request and response objects.
+
+Static files are supported by flask and provides tags to these static files to load them in templates,
+dynamic pages can be developed can display information that may change. Flask provides routing and
+supports dynamic URLs and are useful for RESTful services.
+
+Django is another developing framwork.
+Flask is lightweight and only provides the basic dependencies needed but is extensible, quite flexible 
+allowing the developer to control everything. 
+Django is a full-stack framework and includes everything needed for a full-stack application, it is
+opinionated and makes most of the decisions so the developer can focus on the application's logic.

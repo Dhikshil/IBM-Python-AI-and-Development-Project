@@ -51,11 +51,11 @@ class TestAdd(unittest.TestCase):
 
         # Check that calling 'double(-3.1)' returns -6.2.
         # This tests if the function correctly computes double of -3.1, verifying that it handles negative float inputs.
-        self.assertEqual(double(-3, -3.2), -6.2) # test when -3.1 is given as input the output is -6.2.
+        self.assertEqual(add(3, -3), 0) # test when -3.1 is given as input the output is -6.2.
 
         # Check that calling 'double(0)' returns 0.
         # This tests if the function correctly computes double of 0, verifying that the function works for edge cases.
-        self.assertEqual(double(-1, 5), 4) # test when 0 is given as input the output is 0.
+        self.assertEqual(add(-1, 5), 4) # test when 0 is given as input the output is 0.
         
 # Run all the test cases defined in the module when the script is executed.
 # This will automatically discover and run all the test cases defined in the module.
