@@ -1,0 +1,13 @@
+A python module is a python file consisting of definitions, statements, functions and classes. You can
+import a module to other scripts and notebooks and python files to be used accordingly.
+A packade is a collection of python modules in a directory with a "__init__.py" distinguishing this
+from just a directory of scripts.
+A library is a collection of packages or a single package that allow developers to work with more 
+functions without having to code these themselves saving them development time and making the code cleaner.
+
+To make a package, we must first have multiple modules ready to be used, we then need to have a "__init__.py"
+file which will import the modules using "from . import module"
+
+To verify a python package, we go into a git bash terminal where we initialise python in the terminal 
+and we import the package file that contains the "__init__.py" file along with the other modules. If there 
+no errors that means the package is valid and has been succesfully loaded.
