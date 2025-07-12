@@ -1,0 +1,7 @@
+You can call external APIs using python requests library and return JSON from the external 
+API to your client. This results in sending data back to your client.
+When developing RESTful APIs, you can seend some resource id as part of the request URL.
+Dynamic routing allows you to use the API passed in and use it for the request and extract
+information from it.
+
+Flask allows you to set the parameter type to validate incoming requests, 
