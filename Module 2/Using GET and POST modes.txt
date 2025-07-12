@@ -1,0 +1,25 @@
+The add app decorator in flask defaults to the GET method and so the clients can only send GET
+requests to the specific path. We can pass in methods arguments to control which HTTP method 
+is being used.
+
+All HTTP calls contain the request object created from Flask.Requests class. When a client
+sends a request form the flask server, it is handled by the AddApp.RouteDecorator.
+
+get_data is used to get POST data from request as bytes, get_JSON parses POST data from request
+as JSON.
+args gives query parameters as a dictionary, JSON will parse the data into a dictionary,
+files will your user upload files, form contains all values contained in a form submission 
+and values mixes the args and form data together. You can use all these dictionary values
+as a normal puthon dictionary using idexing or the GET method to extract values.
+
+When forms are left empty, we can use the GET method to get a "none" value but the indexing
+would give a 400 bad request and stops the server and gives an error.
+
+For response attributes, status code indicates the success or failure of a response, headers give 
+more information about the response, content type shows the media type of the response,
+content length is the size of the response message body, conetent encoding indicates any encoding
+to the response so the client knows how to decode the data, MIME type sets the media type of
+the response and sets a date or time after which the response is expired.
+Some common reponse methods include, set_cookie which sets a new cookie and delete_cookie which
+deletes an existing cookie.
+
