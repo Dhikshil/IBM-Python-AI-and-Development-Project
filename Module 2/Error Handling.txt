@@ -1,0 +1,33 @@
+Every HTTP reponse contains a 3 digit code that tells us the status,
+this could be an error or a success. The client is reponsible for 
+consuming the error code.
+
+Error codes from 100-199 signify that a request has been recieved 
+and are informational.
+Error codes from 200-299 signify that request has been recieved
+and that the operation was successful.
+Error codes from 300-399 indicate a redirection in the server.
+Error codes in the 400-499 show thaat an error has taken place 
+within the actual request.
+Error codes from 500-599 say that an error has taken place on the
+server side.
+
+Your code can return a different status code following these
+conventions, it allows you to send the status code in a tuple
+along with the response. You can also use the make_response()
+method to explicitly set the status code.
+
+Some status codes.
+
+200 - Request successful
+201 - New resource created
+202 - Request accepted in process
+204 - request completed no response
+
+400 - Invalid Request
+401 - credentials are missing/invalid
+403 - credentials not sufficient
+404 - Resource not found
+405 - Operation not supported
+500 - Unexpected Server Error
+
