@@ -18,3 +18,7 @@ def about():
 @app.route('/users/<username>')
 def user_profile(username):
     return render_template('profile.html',  username = username)
+
+if __name__ == "__main__":
+    app.run(host = "0.0.0.0", port = 5000)
+    
