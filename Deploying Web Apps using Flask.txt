@@ -1,0 +1,15 @@
+POST in Flask is used to create objects or data, POST requests can be used to creatre a user.
+You can use the GET request to read data from the server.
+You can use PUT and PATCH requests to update exisisting data or objects within servers.
+You can use DELETE requests to delete existing data or objects in the server.
+Most web applications tend to use POST for creating, updating and deleting data and use GET
+to view data from the server
+
+Templates are pre-created HTML pages that serve the web application, they can server both 
+static and dynamic web applications. By default, templates are stored in a file named "templates"
+under the root directory, if the templates need any resources such as images, CSS or JS files, 
+they are stored in "static" under the root directory aswell.
+
+Static pages are rendered as is, dunamic pages, however, require information passed in dynamically
+for each request. These pages are based on values passed in as arguments. Arguments can either be
+passed in as request parameters or through the URL
