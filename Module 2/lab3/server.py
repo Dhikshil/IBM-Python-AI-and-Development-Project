@@ -14,3 +14,7 @@ def about():
 @app.route('/contact')
 def about():
     return render_template('contact.html')
+
+@app.route('/users/<username>')
+def user_profile(username):
+    return render_template('profile.html',  username = username)
